@@ -1,5 +1,6 @@
 package com.todo.todo.model;
 
+import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
 import org.springframework.data.annotation.Id;
@@ -17,6 +18,7 @@ public class TodoDTO {
     private String id;
 
     @NotNull(message = "Todo cannot be null")
+    @NotEmpty(message = "Todo cannot be empty")
     private String todo;
 
     @NotNull(message = "Description cannot be null")
