@@ -4,7 +4,7 @@ A REST API project created using Spring Boot and MongoDB Atlas for the Todo App 
 ## Technologies Used
 
 - Spring Boot
-- MongoDB (NoSQL veritabanı)
+- MongoDB (NoSQL database)
 - Spring Data MongoDB
   
 ## Usage Guide
